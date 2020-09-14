@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html,
+#app,.tabBox {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+}
+.tabBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title{
+    height: 13%;
+    width: 100%;
+}
+.top{
+    display: flex;
+    width: 100%;
+    padding: 15px 0;
+}
+.titleName{
+    flex: 1.2;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.findTop{
+    height: 50px;
+    width: 100%;
+}
+.findTopName{
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+    height: 100%;
+    font-weight: bolder;
+}
+.topImg{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.chatsImg{
+    width: 20px;
+}
+.inp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 98%;
+    height: 35px;
+    outline: none;
+    border:none;
+    border-radius: 3px;
+    background: url(imgs/placeholderSeach.png) center center no-repeat;
+    background-size: 20px;
+    background-color: white;
+}
+input::placeholder{
+    text-align: center;
+    padding-left: 50px;
+}
+.component{
+    height: 90%;
+}
+.bottom{
+    width: 100%;
+    height: 8%;
+    display: flex;
+
+}
+.bottom-item{
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.bottomImg{
+    width: 25px;
+    height: 25px;
+}
+.bottomName{
+    font-size: 10px;
+}
+.middle{
+    height: 87%;
+    width: 100%;
+    overflow: auto;
+}
+.chatTime{
+    padding-right: 10px;
+}
+.middleList{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height:60px;
+    background-color: white;
+    
+}
+.findList{
+    margin-bottom:10px;
+
+}
+.headerImg{
+    width: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.middleListBox{
+    flex: 5;
+    height: 40px;
+    display: flex;
+    border-bottom:1px solid rgb(226, 226, 226) ;
+}
+.findListBox{
+    flex: 5;
+    height: 40px;
+    display: flex;
+}
+.middleList-container{
+    flex: 5;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: center;
+}
+.middleList-time{
+    flex: 2;
+    font-size: 10px;
+    padding-left: 90px;
+    color: #b0b0b0;
+}
+.chatsName{
+    color: black;
+    font-weight: 545;
+}
+.chatsSay{
+    font-size: 10px;
+    color: #b0b0b0;
+}
+
+.meHeader img{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+.meIcon-top{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: white;
+}
+.meTop{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: flex-end;
+    padding-bottom:40px ;
+}
+.meHeader{
+    flex: 1;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meMame{
+    flex: 3;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.qrCode{
+    flex: 1;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.meTopImg{
+    width: 20px;
+    height: 20px;
+}
+.camIcon{
+    width: 25px;
+}
+.meIcon{
+    width: 20px;
+    height: 20px;
+}
+.meMame{
+    display: flex;
+    flex-direction: column;
+}
+.meName{
+    font-size: 16px;
+    font-weight: bold;
+}
+.meName-bottom{
+    font-size: 14px;
+    color: rgb(128, 131, 131);
+}
+.meList{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.meListLeft{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.meListLeft span{
+    padding-left: 10px;
+}
+.meListRight{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.meList-middle{
+    margin-top: 10px;
+}
+.meList-middle-item{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+.meList-item-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.meList-item-left span{
+    padding-left: 10px;
+}
+.meList-item-right{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
